@@ -2,7 +2,7 @@
 
 **A browser-based collection of social games built around playing together, in real time.**
 
-[**Visit PlayLobby**](https://playlobby.online) · [**Explore the games**](https://playlobby.online/games)
+[**Visit PlayLobby**](https://playlobby.online) · [**Explore the games**](https://playlobby.online/games) · **[Read real Product & QA Case Studies](docs/PRODUCT_QA_CASE_STUDIES.md)**
 
 > **Public project showcase.** This repository is intended to document the product, its design decisions, and my experience building and testing it through an AI-assisted workflow. It does **not** contain the private application source code, production infrastructure, user data, or credentials.
 
@@ -36,6 +36,9 @@ The project involves more than individual games. It also explores the surroundin
 The links above point to the public PlayLobby website. Features and availability may evolve as the product is updated.
 
 ## Product and UX challenges
+
+**Real examples:** [Scribble UI regression, Chameleon 2D multiplayer testing, and Acromaniacs performance optimization](docs/PRODUCT_QA_CASE_STUDIES.md). These documented cases show how development challenges were investigated and verified, with limitations stated explicitly.
+
 
 Building a shared multiplayer experience requires careful attention to the **complete player journey**, not just game mechanics.
 

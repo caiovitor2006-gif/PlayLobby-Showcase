@@ -6,6 +6,16 @@
 
 > **Public project showcase.** This repository is intended to document the product, its design decisions, and my experience building and testing it through an AI-assisted workflow. It does **not** contain the private application source code, production infrastructure, user data, or credentials.
 
+## A look at the platform
+
+<p align="center">
+  <a href="https://playlobby.online" title="Explore PlayLobby">
+    <img src="screenshots/playlobby-home.png" alt="PlayLobby website homepage showing six multiplayer games, in Brazilian Portuguese" width="680">
+  </a>
+</p>
+
+*Real screenshot of the PlayLobby home page in Brazilian Portuguese. Click the image to visit the platform.*
+
 ## Overview
 
 PlayLobby brings different multiplayer party games into one web platform. The guiding design principle is simple: **people should be interacting in the same shared session**, rather than playing isolated games and comparing scores afterward.
@@ -19,7 +29,7 @@ The project involves more than individual games. It also explores the surroundin
 | **Chroma Guesser** | Re-create missing colors and compare your choices against the original image and other players. | [Open game](https://chromaguesser.playlobby.online/) |
 | **Quiz Switch** | A social quiz and bluffing experience for groups. | [Open game](https://quizswitch.playlobby.online/) |
 | **Acromaniacs** | Create imaginative sentences from random initials, then vote on the best results. | [Open game](https://acromaniacs.playlobby.online/) |
-| **Scribble** | A multiplayer word-chain party game designed for shared rounds. | [Open game](https://scribble.playlobby.online/) |
+| **Scribble** | A multiplayer word-building game with letter tiles and shared rounds. | [Open game](https://scribble.playlobby.online/) |
 | **ZoomOut** | A visual guessing game built around recognizing images from limited visual information. | [Open game](https://zoomout.playlobby.online/) |
 | **Chameleon 2D** | Camouflage characters in a shared environment, then try to find the other players. | [Open game](https://chameleon2d.playlobby.online/) |
 
@@ -69,9 +79,29 @@ These technologies reflect work across the project and its components, not a cla
 
 ## Screenshots and demos
 
-The live product is the main demonstration: **[playlobby.online](https://playlobby.online)**.
+**Seven original product screenshots**, provided from the live interfaces, show the portal and all six listed games. The images intentionally retain their original interface languages to demonstrate localization in practice.
 
-A curated gallery of **original, verified screenshots** can be added to this repository after visual and privacy review. Screenshots should avoid exposing player information, admin controls, private room codes, or unreleased features.
+| Chroma Guesser — Portuguese (Brazil) | Quiz Switch — Portuguese (Brazil) |
+|:---:|:---:|
+| [![Chroma Guesser multiplayer game lobby in Portuguese](screenshots/chroma-guesser.png)](https://chromaguesser.playlobby.online/) | [![Quiz Switch multiplayer game lobby in Portuguese](screenshots/quiz-switch.png)](https://quizswitch.playlobby.online/) |
+| **Scribble — Portuguese (Brazil)** | **Chameleon 2D — Dutch (Nederlands)** |
+| [![Scribble word game interface in Portuguese](screenshots/scribble.png)](https://scribble.playlobby.online/) | [![Chameleon 2D multiplayer game interface in Dutch](screenshots/chameleon-2d.png)](https://chameleon2d.playlobby.online/) |
+| **ZoomOut — English** | **Acromaniacs — English** |
+| [![ZoomOut visual guessing game interface in English](screenshots/zoomout.png)](https://zoomout.playlobby.online/) | [![Acromaniacs word game interface in English](screenshots/acromaniacs.png)](https://acromaniacs.playlobby.online/) |
+
+*Click any screenshot to open that game's website. These are real interface captures, not AI-generated mockups. They show lobby/onboarding screens rather than full in-progress multiplayer matches.*
+
+### Multilingual experience
+
+Language support is part of the product experience, not just a planned feature. These screenshots deliberately show different locales:
+
+- **Português (Brasil):** platform home, Chroma Guesser, Quiz Switch, and Scribble.
+- **Nederlands:** Chameleon 2D.
+- **English:** ZoomOut and Acromaniacs.
+
+The portal also includes localized routes for **English, Portuguese, Spanish, French, German, and Dutch**. Language availability varies by game, so the screenshots illustrate real examples rather than claiming that every game supports every language.
+
+**Explore the live platform:** [playlobby.online](https://playlobby.online).
 
 ## Opportunities and collaboration
 
